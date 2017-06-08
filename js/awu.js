@@ -46,7 +46,12 @@ function evenOrOdd(num) {
 	var tester = num % 2;
 	if(tester === 0){
 		console.log("The value passed is even");
+	} else if (tester){
+		console.log("The value passed is odd")
 	} else {
+		console.log("Please provide a numberß")
+	}
+		{
 		console.log("The value passed is odd");
 	}
 }
